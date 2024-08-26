@@ -1,3 +1,5 @@
+'use client'
+
 import Image from "next/image";
 import Main from "./components/Main";
 import PromptOuput from "./components/PromptOutput";
@@ -19,7 +21,7 @@ export default function Home() {
       <br />
 
       <div className="relative z-10 flex flex-col items-center justify-center w-full max-w-5xl p-8 bg-gray-900 rounded-lg shadow-lg border border-gray-300">
-        <h2 className="text-2xl font-bold text-white mb-6">Main Component</h2>
+        <h2 className="text-2xl font-bold text-white mb-6">Pick character traits or Randomize</h2>
         <Main />
       </div>
 
